@@ -38,7 +38,7 @@ public class CommonController {
 	}
 
 	private void getReportQa(String path) throws ParseException, IOException {
-		arxService.getReport(path);
+		qaService.getReport(path);
 	}
 
 	@PostMapping("/api/reportqa")
